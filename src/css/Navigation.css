@@ -1,0 +1,31 @@
+.navbar{
+    max-width: 25vw;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tittle{
+    flex-basis: min-content;
+    margin-right: 50px;
+    margin: 0;
+}
+
+.ntasks{
+    background-color: #48e;
+    padding: 0 6px;
+    border-radius: 22px;
+    margin: 0 ;
+}
+
+.navigation-absolute{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
